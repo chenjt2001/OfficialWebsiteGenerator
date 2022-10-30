@@ -1,0 +1,52 @@
+{
+    "lang": "zh_CN",
+    "name": "单色砖",
+    "alias": [],
+    "title": "单色砖 官方网站",
+    "authors": ["珒陶", "JanTang"],
+    "keywords": ["Monochrome Brick", "MonochromeBrick", "游戏"],
+    "description": "一个有趣的游戏！",
+
+    "header": "单色砖",
+    "features": [
+        "你的目标是在每关中尽可能快地到达发光点，并通过所有关卡！"
+    ],
+
+    "downloadUrls": [
+        {
+            "name": "Android 版（提取码：eivt）",
+            "url": "https://pan.baidu.com/s/1IGc3nqVBG0X5iQ1BGoAeSg"
+        },
+        {
+            "name": "Windows 版（提取码：cq0z）",
+            "url": "https://pan.baidu.com/s/1Wf25djrRcWVK1roX1THGfw"
+        },
+        {
+            "name": "UWP 版",
+            "url": "https://www.microsoft.com/store/productId/9MZ0K1FKVZP1"
+        }
+    ],
+
+    "history": [
+        {
+            "versionNumber": "1.0",
+            "publishDate": "20210628",
+            "features": [
+                "单色砖 诞生了！"
+            ]
+        },
+        {
+            "versionNumber": "1.1",
+            "publishDate": "20220320",
+            "features": [
+                "优化了一些细节"
+            ]
+        }
+    ],
+
+    "contact": "me@chenjt.com",
+    "copyright": {
+        "name": "珒陶",
+        "url": "https://www.chenjt.com/"
+    }
+}

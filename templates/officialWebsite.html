@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <meta name="keywords" content="{{ keywords }}">
+    <meta name="description" content="{{ description }}">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="assets/images/logo.png" alt="logo">
+    </header>
+
+    <div class="content">
+
+        <h1> {{ header }} <span class="version-tag">{{ currentVersionName }}</span></h1>
+
+        <ul class="feature">
+            {% for feature in features %}
+                <li>{{ feature }}</li>
+            {% endfor %}
+        </ul>
+
+        {% for item in downloadUrls %}
+            <a class="download-button" href="{{ item['url'] }}" target="_blank">
+                {{ item['name'] }}
+            </a>
+        {% endfor %}
+
+        <div>
+            <img class="image" src="assets/images/main.png">
+        </div>
+
+        <hr>
+        <div class="history">
+            {% for item in history %}
+                <h2>[{{ item["publishDate"] }}] {{ item["versionNumber"] }}版本发布！</h2>
+                <ul>
+                    {% for feature in item["features"] %}
+                        <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+
+        </div>
+        <hr>
+    </div>
+
+    <footer>
+        <a href="./privacy" target="_blank">《{{ name }} 隐私策略》</a>
+        <p>联系作者：<a href="mailto:{{ contact }}" rel="nofollow">{{ contact }}</a></p>
+        <p>Copyright © {{ year }} <a href="{{ copyright['url'] }}" target="_blank">{{ copyright['name'] }}</a>. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

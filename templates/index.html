@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title> 应用列表 </title>
+</head>
+
+<body>
+    <h1>应用列表</h1>
+    <hr>
+        <div>
+            {% for app in appList %}
+                <p><a href="{{ app['url'] }}" target="_blank">{{ app["name"] }}</a></p>
+            {% endfor %}
+        </div>
+    <hr>
+
+    <footer>
+        <!--
+        <p>联系作者：<a href="mailto:me@chenjt.com" rel="nofollow">me@chenjt.com</a></p>
+        <p>Copyright © 2022 <a href="https://www.chenjt.com/" target="_blank"> 珒陶 </a>. All rights reserved.</p>
+        -->
+    </footer>
+</body>
+
+</html>
