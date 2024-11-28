@@ -87,7 +87,7 @@ def assets(name, path):
 @app.route('/<name>/privacy/', methods=['GET'])
 def privacy(name=None):
     """访问隐私策略"""
-    getMetaDir(name)
+
     exts = ['markdown.extensions.extra', 'markdown.extensions.codehilite',
             'markdown.extensions.tables', 'markdown.extensions.toc']
 

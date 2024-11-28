@@ -29,7 +29,7 @@ h1 {
 	border: 1px solid;
 	border-radius: 3px;
 	vertical-align: 25px;
-	font-size: 1vmin;
+	font-size: 0.2em;
 	line-height: 1.4;
 }
 
@@ -43,9 +43,15 @@ h1 {
 	line-height: 1.4;
 }
 
+.download-buttons {
+	margin: 56px auto;
+	width: 80%;
+	max-width: 900px;
+}
+
 .download-button {
 	display: inline-block;
-	margin: 56px auto;
+	margin: 4px auto;
 	padding: 12px 36px;
 	border-radius: 4px;
 	background: #2f79e9;

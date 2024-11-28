@@ -14,16 +14,28 @@
 
     "downloadUrls": [
         {
-            "name": "Android 版（提取码：eivt）",
-            "url": "https://pan.baidu.com/s/1IGc3nqVBG0X5iQ1BGoAeSg"
+            "name": "Android 版",
+            "url": "https://chenjt-my.sharepoint.com/personal/jantang_chenjt_onmicrosoft_com/_layouts/52/download.aspx?share=EbGRh5c9xWBPnvM3M7J3flsBY7sxIwAx7yKpAgi4R4fuAA"
         },
         {
-            "name": "Windows 版（提取码：cq0z）",
-            "url": "https://pan.baidu.com/s/1Wf25djrRcWVK1roX1THGfw"
+            "name": "Windows 版",
+            "url": "https://chenjt-my.sharepoint.com/personal/jantang_chenjt_onmicrosoft_com/_layouts/52/download.aspx?share=EXExAhvDkMNJt0f6mKsH0tEBKqrySBmgcjElRssG2Xs7LQ"
         },
         {
-            "name": "UWP 版",
-            "url": "https://www.microsoft.com/store/productId/9MZ0K1FKVZP1"
+            "name": "Windows 版 | Microsoft Store",
+            "url": "https://www.microsoft.com/store/apps/9PJSCR88LDD3"
+        },
+        {
+            "name": "Windows 版 | 方块游戏平台",
+            "url": "https://store.cubejoy.com/html/en/store/goodsdetail/detail12952.html"
+        },
+        {
+            "name": "Android 版 | Amazon Appstore",
+            "url": "https://www.amazon.com/gp/product/B09C1N63QB"
+        },
+        {
+            "name": "Android 版 | Google Play",
+            "url": "https://play.google.com/store/apps/details?id=com.chenjt.monochromebrick"
         }
     ],
 
